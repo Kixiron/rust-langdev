@@ -9,7 +9,7 @@
 - [Language server protocol](#langauge-server-protocol)
 - [Testing](#testing)
 - [Incremental compilation](#incremental-compilation)
-- [Floats/Ints/Bools](#floats-ints-bools)
+- [Floats/Ints/Bools](#floatsintsbools)
 - [Binary & object file parsing, generating and processing](#binary--object-file-parsing-generating-and-processing)
 - [Solvers](#solvers)
 - [CLI](#cli)
