@@ -10,7 +10,7 @@
 - [Testing](#testing)
 - [Incremental compilation](#incremental-compilation)
 - [Floats/Ints/Bools](#floats-ints-bools)
-- [Binary & object file parsing, generating and processing](#binary-object-file-parsing-generating-and-processing)
+- [Binary & object file parsing, generating and processing](#binary--object-file-parsing-generating-and-processing)
 - [Solvers](#solvers)
 - [CLI](#cli)
 - [Repl](#repl)
