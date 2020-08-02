@@ -96,6 +96,8 @@
 - [`ryu`](https://crates.io/crates/ryu) A Rust implementation of the PLDI'18 paper [Ryū: fast float-to-string conversion](https://dl.acm.org/doi/10.1145/3192366.3192369) by Ulf Adams
 - [`hexponent`](https://crates.io/crates/hexponent) C11 compliant hex float parsing
 - [`ordered-float`](https://crates.io/crates/ordered-float) Total ordering on floats
+- [`half`](https://crates.io/crates/half) A half-precision floating point f16 type for Rust implementing the IEEE 754-2008 standard
+- [`f128`](https://crates.io/crates/f128) Bindings to the gcc quadmath library
     
 ## Binary & object file parsing, generating and processing
 
