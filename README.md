@@ -19,6 +19,7 @@
 - [Pretty printing](#pretty-printing)
 - [Variable binding](#variable-binding)
 - [Caching](#caching)
+- [WASM](#wasm)
 
 ## Lexers
 
@@ -161,3 +162,14 @@
 ## Caching
 
 - [`cached`](https://crates.io/crates/cached) Caching structures and simplified function memoization
+
+## WASM
+
+- [`wain`](https://crates.io/crates/wain) WebAssembly interpreter written in Safe Rust with zero dependencies
+- [`wasmer`](https://crates.io/crates/wasmer) The high-level public API of the Wasmer WebAssembly runtime
+- [`wasmtime`](https://crates.io/crates/wasmtime) High-level API to expose the Wasmtime runtime
+- [`wasmtime-jit`](https://crates.io/crates/wasmtime-jit) JIT-style execution for WebAsssembly code in Cranelift
+- [`wasmlite-parser`](https://crates.io/crates/wasmlite-parser) This crate parses WebAssembly modules and can generate LLVM IR based the data extracted from a module
+- [`parity-wasm-cp`](https://crates.io/crates/parity-wasm-cp) WebAssembly binary format serialization/deserialization/interpreter
+- [`substrate-wasm-builder`](https://crates.io/crates/substrate-wasm-builder) A utility for building WASM binaries
+- [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations 
