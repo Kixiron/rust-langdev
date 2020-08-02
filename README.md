@@ -42,6 +42,7 @@
 - [`inkwell`](https://crates.io/crates/inkwell) Inkwell aims to help you pen your own programming languages by safely wrapping llvm-sys
 - [`llvm-ir`](https://crates.io/crates/llvm-ir) LLVM IR in natural Rust data structures
 - [`llvmenv`](https://crates.io/crates/llvmenv) Manage multiple LLVM/Clang builds
+- [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations 
     
 ## String interning
 
