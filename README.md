@@ -36,12 +36,12 @@
     
 ## Codegen
 
-- [`cranelift`](https://crates.io/crates/cranelift)
-- [`llvm-sys`](https://crates.io/crates/llvm-sys)
-- [`llama`](https://crates.io/crates/llama)
-- [`inkwell`](https://crates.io/crates/inkwell)
-- [`llvm-ir`](https://crates.io/crates/llvm-ir)
-- [`llvmenv`](https://crates.io/crates/llvmenv)
+- [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
+- [`llvm-sys`](https://crates.io/crates/llvm-sys) Bindings to LLVM's C API
+- [`llama`](https://crates.io/crates/llama) Friendly LLVM bindings
+- [`inkwell`](https://crates.io/crates/inkwell) Inkwell aims to help you pen your own programming languages by safely wrapping llvm-sys
+- [`llvm-ir`](https://crates.io/crates/llvm-ir) LLVM IR in natural Rust data structures
+- [`llvmenv`](https://crates.io/crates/llvmenv) Manage multiple LLVM/Clang builds
     
 ## String interning
 
@@ -52,11 +52,11 @@
     
 ## Just-in-time Compilation
 
-- [`masm-rs`](https://github.com/playxe/masm-rs)
-- [`jit`](https://crates.io/crates/jit) (LibJIT)
-- [`lightning-sys`](https://crates.io/crates/lightning-sys)
-- [`gccjit`](https://crates.io/crates/gccjit)
-- [`cranelift`](https://crates.io/crates/cranelift)
+- [`masm-rs`](https://github.com/playxe/masm-rs) A JSC/SpiderMonkey like macro assembler
+- [`jit`](https://crates.io/crates/jit) (LibJIT) Just-In-Time Compilation in Rust using LibJIT bindings
+- [`lightning-sys`](https://crates.io/crates/lightning-sys) GNU lightning bindings for rust
+- [`gccjit`](https://crates.io/crates/gccjit) Higher-level Rust bindings for libgccjit
+- [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
     
 ## Error reporting
 
@@ -65,10 +65,10 @@
     
 ## Language server protocol
 
-- [`lsp-types`](https://crates.io/crates/lsp-types)
-- [`tower-lsp`](https://crates.io/crates/tower-lsp)
-- [`codespan-lsp`](https://crates.io/crates/codespan-lsp)
-- [`lsp-server`](https://crates.io/crates/lsp-server)
+- [`lsp-types`](https://crates.io/crates/lsp-types) Types for interaction with a language server, using VSCode's Language Server Protocol
+- [`tower-lsp`](https://crates.io/crates/tower-lsp) Language Server Protocol implementation based on Tower
+- [`codespan-lsp`](https://crates.io/crates/codespan-lsp) Conversions between codespan types and Language Server Protocol types
+- [`lsp-server`](https://crates.io/crates/lsp-server) A generic LSP server scaffold
     
 ## Testing
 
@@ -96,17 +96,17 @@
 - [`ryu`](https://crates.io/crates/ryu) A Rust implementation of the PLDI'18 paper [Ryū: fast float-to-string conversion](https://dl.acm.org/doi/10.1145/3192366.3192369) by Ulf Adams
 - [`hexponent`](https://crates.io/crates/hexponent) C11 compliant hex float parsing
 - [`ordered-float`](https://crates.io/crates/ordered-float) Total ordering on floats
-- [`half`](https://crates.io/crates/half) A half-precision floating point f16 type for Rust implementing the IEEE 754-2008 standard
+- [`half`](https://crates.io/crates/half) A half-precision floating point `f16` type for Rust implementing the IEEE 754-2008 standard
 - [`f128`](https://crates.io/crates/f128) Bindings to the gcc quadmath library
     
 ## Binary & object file parsing, generating and processing
 
-- [`goblin`](https://crates.io/crates/goblin)
-- [`gimli`](https://crates.io/crates/gimli)
-- [`faerie`](https://crates.io/crates/faerie)
-- [`object`](https://crates.io/crates/object)
-- [`elf`](https://crates.io/crates/elf)
-- [`elfkit`](https://crates.io/crates/elfkit)
+- [`goblin`](https://crates.io/crates/goblin) An impish, cross-platform, ELF, Mach-o, and PE binary parsing and loading crate
+- [`gimli`](https://crates.io/crates/gimli) A library for reading and writing the DWARF debugging format.
+- [`faerie`](https://crates.io/crates/faerie) ELF and Mach-o native binary object file emitter
+- [`object`](https://crates.io/crates/object) A unified interface for reading and writing object file formats.
+- [`elf`](https://crates.io/crates/elf) A pure-rust library for parsing ELF files
+- [`elfkit`](https://crates.io/crates/elfkit) An elf parser and manipulation library in pure rust 
     
 ## Symbolic Execution
 
@@ -114,19 +114,19 @@
     
 ## Solvers
 
-- [`z3`](https://crates.io/crates/z3)
-- [`z3-sys`](https://crates.io/crates/z3-sys)
-- [`z3_ref`](https://crates.io/crates/z3_ref)
-- [`z3d`](https://crates.io/crates/z3d)
-- [`boolector`](https://crates.io/crates/boolector)
-- [`boolector-sys`](https://crates.io/crates/boolector-sys)
+- [`z3`](https://crates.io/crates/z3) A high-level rust bindings for the Z3 SMT solver from Microsoft Research
+- [`z3-sys`](https://crates.io/crates/z3-sys) Low-level bindings for the Z3 SMT solver from Microsoft Research
+- [`z3_ref`](https://crates.io/crates/z3_ref) A high level interface to the Z3 SMT solver
+- [`z3d`](https://crates.io/crates/z3d) Z3 DSL interface for Rust
+- [`boolector`](https://crates.io/crates/boolector) Safe high-level bindings for the Boolector SMT solver
+- [`boolector-sys`](https://crates.io/crates/boolector-sys) Low-level bindings for the Boolector SMT solver
 
 ## CLI
 
-- [`structopt`](https://crates.io/crates/structopt)
-- [`clap`](https://crates.io/crates/clap)
-- [`pico-args`](https://crates.io/crates/pico-args)
-- [`argh`](https://crates.io/crates/argh)
+- [`structopt`](https://crates.io/crates/structopt) Parse command line arguments by defining a struct
+- [`clap`](https://crates.io/crates/clap) A simple to use, efficient, and full-featured Command Line Argument Parser 
+- [`pico-args`](https://crates.io/crates/pico-args) An ultra simple CLI arguments parser
+- [`argh`](https://crates.io/crates/argh) A derive-based argument parser optimized for code size
     
 ## Repl
 
