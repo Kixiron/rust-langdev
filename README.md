@@ -1,5 +1,23 @@
 # Langdev libraries for Rust
 
+- [Lexers](#lexers)
+- [Parsers](#parsers)
+- [Codegen](#codegen)
+- [String interning](#string-interning)
+- [Just-in-time compilation](#just-in-time-compilation)
+- [Error reporting](#error-reporting)
+- [Language server protocol](#langauge-server-protocol)
+- [Testing](#testing)
+- [Incremental compilation](#incremental-compilation)
+- [Floats/Ints/Bools](#floats-ints-bools)
+- [Binary & object file parsing, generating and processing](#binary-object-file-parsing-generating-and-processing)
+- [Solvers](#solvers)
+- [CLI](#cli)
+- [Repl](#repl)
+- [String handling](#string-handling)
+- [Syntax trees](#syntax-trees)
+- [Pretty printing](#pretty-printing)
+
 ## Lexers
 
 - [`logos`](https://crates.io/crates/logos) Logos has two goals: To make it easy to create a Lexer, so you can focus on more complex problems and to make the generated Lexer faster than anything you'd write by hand
