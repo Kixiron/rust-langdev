@@ -17,6 +17,8 @@
 - [String handling](#string-handling)
 - [Syntax trees](#syntax-trees)
 - [Pretty printing](#pretty-printing)
+- [Variable binding](#variable-binding)
+- [Caching](#caching)
 
 ## Lexers
 
@@ -99,6 +101,7 @@
 - [`ordered-float`](https://crates.io/crates/ordered-float) Total ordering on floats
 - [`half`](https://crates.io/crates/half) A half-precision floating point `f16` type for Rust implementing the IEEE 754-2008 standard
 - [`f128`](https://crates.io/crates/f128) Bindings to the gcc quadmath library
+- [`approx`](https://crates.io/crates/approx) Approximate floating point equality comparisons and assertions
     
 ## Binary & object file parsing, generating and processing
 
@@ -148,4 +151,11 @@
 ## Pretty printing
 
 - [`pretty`](https://crates.io/crates/pretty) Wadler-style pretty-printing combinators in Rust
-    
+
+## Variable binding
+
+- [`moniker`](https://crates.io/crates/moniker) An automagical variable binding library for tracking variables in scopes
+
+## Caching
+
+- [`cached`](https://crates.io/crates/cached) Caching structures and simplified function memoization
