@@ -23,6 +23,7 @@
 ## Lexers
 
 - [`logos`](https://crates.io/crates/logos) Logos has two goals: To make it easy to create a Lexer, so you can focus on more complex problems and to make the generated Lexer faster than anything you'd write by hand
+- [`lrlex`](https://crates.io/crates/lrlex) A replacement for [`lex`](http://dinosaur.compilertools.net/lex/index.html)/[`flex`](https://westes.github.io/flex/manual/) that generates Rust code
     
 ## Parsers
 
@@ -35,6 +36,7 @@
 - [`glue`](https://crates.io/crates/glue) Glue is a parser combinator framework for parsing text based formats, it is easy to use and relatively fast too
 - [`pratt`](https://crates.io/crates/pratt) A general purpose pratt parser for Rust
 - [`pest`](https://crates.io/crates/pest) A general purpose parser written in Rust with a focus on accessibility, correctness, and performance using parsing expression grammars (PEG)
+- [`lrpar`](https://crates.io/crates/lrpar) A Yacc-compatible parser.
     
 ## Codegen
 
