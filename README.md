@@ -121,6 +121,7 @@
     
 ## Solvers
 
+- [`rsmt2`](https://crates.io/crates/rsmt2) Wrapper for SMT-LIB 2 compliant SMT solvers.
 - [`z3`](https://crates.io/crates/z3) A high-level rust bindings for the Z3 SMT solver from Microsoft Research
 - [`z3-sys`](https://crates.io/crates/z3-sys) Low-level bindings for the Z3 SMT solver from Microsoft Research
 - [`z3_ref`](https://crates.io/crates/z3_ref) A high level interface to the Z3 SMT solver
