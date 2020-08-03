@@ -69,7 +69,7 @@
 
 - [`codespan-reporting`](https://crates.io/crates/codespan-reporting) Beautiful diagnostic reporting for text-based programming languages
 - [`codespan`](https://crates.io/crates/codespan) Data structures for tracking locations in source code
-- [`text-unit`](https://crates.io/crates/text_unit) A library that provides newtype wrappers for `u32` and `(u32, u32)` for use as text offsets
+- [`text-size`](https://crates.io/crates/text_size) A library that provides newtype wrappers for `u32` and `(u32, u32)` for use as text offsets
     
 ## Language server protocol
 
