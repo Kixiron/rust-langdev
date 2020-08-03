@@ -47,7 +47,8 @@
 - [`inkwell`](https://crates.io/crates/inkwell) Inkwell aims to help you pen your own programming languages by safely wrapping llvm-sys
 - [`llvm-ir`](https://crates.io/crates/llvm-ir) LLVM IR in natural Rust data structures
 - [`llvmenv`](https://crates.io/crates/llvmenv) Manage multiple LLVM/Clang builds
-- [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations 
+- [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations
+- [`cilk`](https://github.com/maekawatoshiki/cilk) Toy Compiler Infrastructure influenced by LLVM written in Rust.
     
 ## String interning
 
@@ -147,6 +148,7 @@
 - [`beef`](https://crates.io/crates/beef) Faster, more compact implementation of [`Cow`](https://doc.rust-lang.org/alloc/borrow/enum.Cow.html).
 - [`smol_str`](https://crates.io/crates/smol_str) Small-string optimized string type with O(1) clone
 - [`smallstring`](https://crates.io/crates/smallstring) 'Small string' optimization: store small strings on the stack using smallvec
+- [`heck`](https://crates.io/crates/heck) Heck is a case conversion library that exists to provide case conversion between common cases like CamelCase and snake_case. It is intended to be unicode aware, internally consistent, and reasonably well performing
 
 ## Syntax trees
 
