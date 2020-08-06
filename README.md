@@ -143,7 +143,7 @@
 
 - [`rustyline`](https://crates.io/crates/rustyline) Rustyline, a readline implementation based on Antirez's Linenoise
 - [`repl-rs`](https://crates.io/crates/repl-rs) Library to generate a REPL for your application
-- [`termwiz`](https://crates.io/crates/termwizs) Terminal Wizardry for Unix and Windows
+- [`termwiz`](https://crates.io/crates/termwiz) Terminal Wizardry for Unix and Windows
 
 ## String handling
 
