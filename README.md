@@ -20,6 +20,7 @@
 - [Variable binding](#variable-binding)
 - [Caching](#caching)
 - [WASM](#wasm)
+- [Logging](#logging)
 
 ## Lexers
 
@@ -178,3 +179,14 @@
 - [`parity-wasm-cp`](https://crates.io/crates/parity-wasm-cp) WebAssembly binary format serialization/deserialization/interpreter
 - [`substrate-wasm-builder`](https://crates.io/crates/substrate-wasm-builder) A utility for building WASM binaries
 - [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations 
+
+## Logging
+
+- [`tracing`](https://crates.io/crates/tracing) Application-level tracing for Rust
+  - [`tracing-timing`](https://crates.io/crates/tracing-timing) Inter-event timing metrics on top of `tracing`
+  - [`tracing-coz`](https://crates.io/crates/tracing-coz) Rust-tracing support for the [coz](https://github.com/plasma-umass/coz/#installation) Causal Profiler
+  - [`tracing-flame`](https://crates.io/crates/tracing-flame) A tracing `Layer` for generating a folded stack trace for generating flamegraphs and flamecharts with inferno
+  - [`test-env-log`](https://crates.io/crates/test-env-log) A crate that takes care of automatically initializing logging and/or tracing for Rust tests.
+  - [`tracing-unwrap`](https://crates.io/crates/tracing-unwrap) This crate provides `.unwrap_or_log()` and `.expect_or_log()` methods on `Result` and `Option` types that log failed unwraps to a `tracing::Subscriber`
+- [`log`](https://crates.io/crates/log) A Rust library providing a lightweight logging facade
+- [`slog`](https://crates.io/crates/slog) An ecosystem of reusable components for structured, extensible, composable and contextual logging for Rust
