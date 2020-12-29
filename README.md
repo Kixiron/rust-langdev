@@ -6,7 +6,7 @@
 - [String interning](#string-interning)
 - [Just-in-time compilation](#just-in-time-compilation)
 - [Error reporting](#error-reporting)
-- [Language server protocol](#langauge-server-protocol)
+- [Language server protocol](#language-server-protocol)
 - [Testing](#testing)
 - [Incremental compilation](#incremental-compilation)
 - [Floats/Ints/Bools](#floatsintsbools)
@@ -21,6 +21,8 @@
 - [Caching](#caching)
 - [WASM](#wasm)
 - [Logging](#logging)
+- [Storage](#storage)
+  - [Disjoint-sets](#disjoint-sets)
 
 ## Lexers
 
@@ -85,6 +87,8 @@
 - [`goldentests`](https://crates.io/crates/goldentests) A golden file testing library where tests can be configured within the same test file
 - [`lang_tester`](https://crates.io/crates/lang_tester) Concise language testing framework for compilers and VMs (Linux only)
 - [`compiletest_rs`](https://crates.io/crates/compiletest_rs) The compiletest utility from the Rust compiler as a standalone testing harness
+- [`insta`](https://crates.io/crates/insta) A snapshot testing library for Rust
+- [`k9`](https://crates.io/crates/k9) Snapshot testing and better assertions
     
 ## Unicode
 
@@ -190,3 +194,13 @@
   - [`tracing-unwrap`](https://crates.io/crates/tracing-unwrap) This crate provides `.unwrap_or_log()` and `.expect_or_log()` methods on `Result` and `Option` types that log failed unwraps to a `tracing::Subscriber`
 - [`log`](https://crates.io/crates/log) A Rust library providing a lightweight logging facade
 - [`slog`](https://crates.io/crates/slog) An ecosystem of reusable components for structured, extensible, composable and contextual logging for Rust
+
+## Storage
+
+- [`indexmap`](https://crates.io/crates/indexmap) A hash table with consistent order and fast iteration
+- [`vecmap`](https://crates.io/crates/vecmap) Vec-based Map and Set data structures
+
+### Disjoint-sets
+
+- [`union-find`](https://crates.io/crates/union-find) Struct and methods for union-find operation
+- [`ena`](https://crates.io/crates/ena) An implementation of union-find in Rust; extracted from (and used by) rustc
