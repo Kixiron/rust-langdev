@@ -197,6 +197,7 @@
 
 ## Storage
 
+- [`slotmap`](https://crates.io/crates/slotmap) Containers with persistent unique keys to access stored values: Insertion, deletion and access all take O(1) time with low overhead.
 - [`indexmap`](https://crates.io/crates/indexmap) A hash table with consistent order and fast iteration
 - [`vecmap`](https://crates.io/crates/vecmap) Vec-based Map and Set data structures
 
