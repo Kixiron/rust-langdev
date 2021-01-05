@@ -41,6 +41,7 @@
 - [`pratt`](https://crates.io/crates/pratt) A general purpose pratt parser for Rust
 - [`pest`](https://crates.io/crates/pest) A general purpose parser written in Rust with a focus on accessibility, correctness, and performance using parsing expression grammars (PEG)
 - [`lrpar`](https://crates.io/crates/lrpar) A Yacc-compatible parser.
+- [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/) A parser generator for building fast editor-friendly parsers with features like streaming, incremental, resumable (re)parsing, with timeouts and cancellations, and advanced syntax node queries.
     
 ## Codegen
 
