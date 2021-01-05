@@ -157,6 +157,7 @@
 - [`smol_str`](https://crates.io/crates/smol_str) Small-string optimized string type with O(1) clone
 - [`smallstring`](https://crates.io/crates/smallstring) 'Small string' optimization: store small strings on the stack using smallvec
 - [`heck`](https://crates.io/crates/heck) Heck is a case conversion library that exists to provide case conversion between common cases like CamelCase and snake_case. It is intended to be unicode aware, internally consistent, and reasonably well performing
+- [`ropey`](https://crates.io/crates/ropey) Ropey is a utf8 text rope for Rust, designed to be the backing text-buffer for applications such as text editors. Ropey is fast, robust, and can handle huge texts and memory-incoherent edits with ease.
 
 ## Syntax trees
 
