@@ -23,6 +23,7 @@
 - [Logging](#logging)
 - [Storage](#storage)
   - [Disjoint-sets](#disjoint-sets)
+- [Incremental Analysis](#incremental-analysis)
 
 ## Lexers
 
@@ -42,6 +43,8 @@
 - [`pest`](https://crates.io/crates/pest) A general purpose parser written in Rust with a focus on accessibility, correctness, and performance using parsing expression grammars (PEG)
 - [`lrpar`](https://crates.io/crates/lrpar) A Yacc-compatible parser.
 - [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/) A parser generator for building fast editor-friendly parsers with features like streaming, incremental, resumable (re)parsing, with timeouts and cancellations, and advanced syntax node queries.
+- [`rowan`](https://crates.io/crates/rowan) Generic lossless syntax trees
+  - [`ungrammar`](https://crates.io/crates/ungrammar) A DSL for specifying concrete syntax trees, see [this introductory post](https://rust-analyzer.github.io/blog/2020/10/24/introducing-ungrammar.html)
     
 ## Codegen
 
@@ -207,3 +210,14 @@
 
 - [`union-find`](https://crates.io/crates/union-find) Struct and methods for union-find operation
 - [`ena`](https://crates.io/crates/ena) An implementation of union-find in Rust; extracted from (and used by) rustc
+
+## Incremental Analysis
+
+- [`timely`](https://crates.io/crates/timely) A low-latency cyclic dataflow computational model, introduced in the paper [Naiad: a timely dataflow system](https://dl.acm.org/doi/10.1145/2517349.2522738)
+  - [`differential-dataflow`](https://crates.io/crates/differential-dataflow) A data-parallel programming framework designed to efficiently process large volumes of data and to quickly respond to arbitrary changes in input collections, an implementation of [differential dataflow](https://github.com/timelydataflow/differential-dataflow/blob/master/differentialdataflow.pdf) over [timely dataflow](https://github.com/timelydataflow/timely-dataflow) on Rust.
+  - [`dogsdogsdogs`](https://github.com/TimelyDataflow/differential-dataflow/tree/master/dogsdogsdogs) Worst-case optimal joins and delta queries in differential dataflow
+  - [`dataflow-join`](https://github.com/frankmcsherry/dataflow-join) A streaming implementation of Ngo et al's `GenericJoin` in timely dataflow
+  - [`timely-sort`](https://github.com/TimelyDataflow/timely-dataflow/tree/master/sort) An cache-aware implementation of radix sort in Rust
+  - [`diagnostics`](https://github.com/TimelyDataflow/diagnostics) Diagnostic tools for [`timely-datafflow`](https://crates.io/crates/timely) and [`differential-dataflow`](https://crates.io/crates/differential-dataflow) computations
+- [`differential-datalog`](https://github.com/vmware/differential-datalog) A programming language for incremental computation based on [`timely-dataflow`](https://crates.io/crates/timely) and [`differential-dataflow`](https://crates.io/crates/differential-dataflow), similar to [`IncA`](https://github.com/szabta89/IncA) or [`Souffle`](https://github.com/souffle-lang/souffle)
+
