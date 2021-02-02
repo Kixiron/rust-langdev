@@ -24,6 +24,9 @@
 - [Storage](#storage)
   - [Disjoint-sets](#disjoint-sets)
 - [Incremental Analysis](#incremental-analysis)
+  - [Timely Dataflow Resources](#timely-dataflow-resources)
+- [Fuzzing](#fuzzing)
+  - [Fuzzing Resources](#fuzzing-resources)
 
 ## Lexers
 
@@ -221,3 +224,25 @@
   - [`diagnostics`](https://github.com/TimelyDataflow/diagnostics) Diagnostic tools for [`timely-datafflow`](https://crates.io/crates/timely) and [`differential-dataflow`](https://crates.io/crates/differential-dataflow) computations
 - [`differential-datalog`](https://github.com/vmware/differential-datalog) A programming language for incremental computation based on [`timely-dataflow`](https://crates.io/crates/timely) and [`differential-dataflow`](https://crates.io/crates/differential-dataflow), similar to [`IncA`](https://github.com/szabta89/IncA) or [`Souffle`](https://github.com/souffle-lang/souffle)
 
+### Timely Dataflow Resources
+
+- [Naiad: a timely dataflow system](https://dl.acm.org/doi/10.1145/2517349.2522738)
+- [Timely Dataflow Book](https://timelydataflow.github.io/timely-dataflow/)
+- [Differential Dataflow](https://github.com/timelydataflow/differential-dataflow/blob/master/differentialdataflow.pdf)
+- [Differential Dataflow Book](https://timelydataflow.github.io/differential-dataflow/)
+- Sudoku in Differential Dataflow: [blog](https://github.com/frankmcsherry/blog/blob/master/posts/2020-06-06.md#sudoku-in-differential-dataflow), [video series](https://www.youtube.com/watch?v=DR5V5bNpclg)
+- An introduction to Timely Dataflow: [part 1](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-14.md), [part 2](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-18.md), [part 3](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-21.md)
+- An introduction to Differential Dataflow: [part 1](https://github.com/frankmcsherry/blog/blob/master/posts/2015-09-29.md), [part 2](https://github.com/frankmcsherry/blog/blob/master/posts/2015-11-27.md)
+- [Differential Dataflow meets Calculus](https://github.com/frankmcsherry/blog/blob/master/posts/2020-02-15.md)
+
+## Fuzzing
+
+- [`honggfuzz-rs`](https://crates.io/crates/honggfuzz) Honggfuzz is a security oriented fuzzer with powerful analysis options that supports evolutionary, feedback-driven fuzzing based on code coverage
+- [`cargo-fuzz`](https://crates.io/crates/cargo-fuzz) A cargo subcommand for using libFuzzer
+- [`libfuzzer-sys`](https://crates.io/crates/libfuzzer-sys) Barebones wrapper around LLVM's libFuzzer runtime library
+- [`wasm-smith`](https://crates.io/crates/wasm-smith) A WebAssembly test case generator
+
+### Fuzzing Resources
+
+- [Fuzzing a parser](https://arzg.github.io/lang/20/)
+- [Rust Fuzz Book](https://rust-fuzz.github.io/book/cargo-fuzz.html)
