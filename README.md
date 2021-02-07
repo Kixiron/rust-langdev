@@ -88,6 +88,7 @@
 - [`tower-lsp`](https://crates.io/crates/tower-lsp) Language Server Protocol implementation based on Tower
 - [`codespan-lsp`](https://crates.io/crates/codespan-lsp) Conversions between codespan types and Language Server Protocol types
 - [`lsp-server`](https://crates.io/crates/lsp-server) A generic LSP server scaffold
+- [`lspower`](https://crates.io/crates/lspower) Language Server Protocol implementation for Rust based on Tower. (Fork of `tower-lsp`)
     
 ## Testing
 
