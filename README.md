@@ -259,6 +259,7 @@
 
 ## Guides & Resources
 
+- [Making a language in Rust](https://arzg.github.io/lang/) A series about making a programming language called Eldiro using the Rust programming language
 - [Create Your Own Programming Language with Rust](https://createlang.rs/)
 - [Writing a simple parser in Rust](https://adriann.github.io/rust_parser.html)
 - GC and Rust [part 0](http://blog.pnkfx.org/blog/2015/10/27/gc-and-rust-part-0-how-does-gc-work/), [part 1](http://blog.pnkfx.org/blog/2015/11/10/gc-and-rust-part-1-specing-the-problem/) and [part 2](http://blog.pnkfx.org/blog/2016/01/01/gc-and-rust-part-2-roots-of-the-problem/)
