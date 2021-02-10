@@ -28,6 +28,7 @@
 - [Fuzzing](#fuzzing)
   - [Fuzzing Resources](#fuzzing-resources)
 - [Graphs](#graphs)
+- [Guides & Resources](#guides--resources)
 
 ## Lexers
 
@@ -255,3 +256,11 @@
 - [`petgraph`](https://crates.io/crates/petgraph) A graph data structure library. Provides graph types and graph algorithms
 - [`timely`](https://crates.io/crates/timely) A low-latency cyclic dataflow computational model, introduced in the paper [Naiad: a timely dataflow system](https://dl.acm.org/doi/10.1145/2517349.2522738)
 - [`differential-dataflow`](https://crates.io/crates/differential-dataflow) A data-parallel programming framework designed to efficiently process large volumes of data and to quickly respond to arbitrary changes in input collections, an implementation of [differential dataflow](https://github.com/timelydataflow/differential-dataflow/blob/master/differentialdataflow.pdf) over [timely dataflow](https://github.com/timelydataflow/timely-dataflow) on Rust.
+
+## Guides & Resources
+
+- [Create Your Own Programming Language with Rust](https://createlang.rs/)
+- [Writing a simple parser in Rust](https://adriann.github.io/rust_parser.html)
+- GC and Rust [part 0](http://blog.pnkfx.org/blog/2015/10/27/gc-and-rust-part-0-how-does-gc-work/), [part 1](http://blog.pnkfx.org/blog/2015/11/10/gc-and-rust-part-1-specing-the-problem/) and [part 2](http://blog.pnkfx.org/blog/2016/01/01/gc-and-rust-part-2-roots-of-the-problem/)
+- Matklad on pratt parsing: [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) and [From Pratt to Dikjstra](https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html)
+- [Pure AST based linting sucks](https://rdambrosio016.github.io/rust/2020/09/18/pure-ast-based-linting-sucks.html)
