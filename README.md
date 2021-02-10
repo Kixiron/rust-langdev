@@ -27,6 +27,7 @@
   - [Timely Dataflow Resources](#timely-dataflow-resources)
 - [Fuzzing](#fuzzing)
   - [Fuzzing Resources](#fuzzing-resources)
+- [Graphs](#graphs)
 
 ## Lexers
 
@@ -247,3 +248,10 @@
 
 - [Fuzzing a parser](https://arzg.github.io/lang/20/)
 - [Rust Fuzz Book](https://rust-fuzz.github.io/book/cargo-fuzz.html)
+
+## Graphs
+
+- [`egg`](https://crates.io/crates/egg) Egg is a flexible, high-performance e-graph library 
+- [`petgraph`](https://crates.io/crates/petgraph) A graph data structure library. Provides graph types and graph algorithms
+- [`timely`](https://crates.io/crates/timely) A low-latency cyclic dataflow computational model, introduced in the paper [Naiad: a timely dataflow system](https://dl.acm.org/doi/10.1145/2517349.2522738)
+- [`differential-dataflow`](https://crates.io/crates/differential-dataflow) A data-parallel programming framework designed to efficiently process large volumes of data and to quickly respond to arbitrary changes in input collections, an implementation of [differential dataflow](https://github.com/timelydataflow/differential-dataflow/blob/master/differentialdataflow.pdf) over [timely dataflow](https://github.com/timelydataflow/timely-dataflow) on Rust.
