@@ -267,3 +267,4 @@
 - GC and Rust [part 0](http://blog.pnkfx.org/blog/2015/10/27/gc-and-rust-part-0-how-does-gc-work/), [part 1](http://blog.pnkfx.org/blog/2015/11/10/gc-and-rust-part-1-specing-the-problem/) and [part 2](http://blog.pnkfx.org/blog/2016/01/01/gc-and-rust-part-2-roots-of-the-problem/)
 - Matklad on pratt parsing: [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) and [From Pratt to Dikjstra](https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html)
 - [Pure AST based linting sucks](https://rdambrosio016.github.io/rust/2020/09/18/pure-ast-based-linting-sucks.html)
+- [LLVM's Kaleidoscope in Rust](https://github.com/jauhien/iron-kaleidoscope) The Kaleidoscope Language tutorial, showing how to implement a simple language using LLVM in Rust
