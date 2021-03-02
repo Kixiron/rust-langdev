@@ -148,6 +148,11 @@
 - [`z3d`](https://crates.io/crates/z3d) Z3 DSL interface for Rust
 - [`boolector`](https://crates.io/crates/boolector) Safe high-level bindings for the Boolector SMT solver
 - [`boolector-sys`](https://crates.io/crates/boolector-sys) Low-level bindings for the Boolector SMT solver
+- [`smt2utils`](https://github.com/facebookincubator/smt2utils) Libraries and tools for the SMT-LIB-2 standard
+  - [`smt2parser`](https://crates.io/crates/smt2parser) A generic parser for SMT2 commands, as specified by the SMT-LIB-2 standard
+  - [`smt2proxy`](https://crates.io/crates/smt2proxy) An experimental binary tool to intercept and pre-process SMT2 commands before they are send to an SMT solver
+  - [`z3tracer`](https://crates.io/crates/z3tracer) An experimental parser for Z3 tracing logs obtained by passing `trace=true proof=true` to Z3
+- [Axiom Profiler](https://github.com/viperproject/axiom-profiler) A tool for visualising, analysing and understanding quantifier instantiations made via E-matching in a run of an SMT solver
 
 ## CLI
 
