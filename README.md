@@ -29,6 +29,7 @@
   - [Fuzzing Resources](#fuzzing-resources)
 - [Graphs](#graphs)
 - [Type Checking](#type-checking)
+- [Peephole Optimization](#peephole-optimization)
 - [Guides & Resources](#guides--resources)
 
 ## Lexers
@@ -268,6 +269,11 @@
 ## Type Checking
 
 - [`rusttyc`](https://crates.io/crates/rusttyc) An interface that allows for an intuitive translation of inference rules based on a Hindney-Milner-like bounded type meet-semilattice into rust code
+
+## Peephole Optimization
+
+- [`egg`](https://crates.io/crates/egg) Egg is a flexible, high-performance e-graph library 
+- [`peepmatic`](https://crates.io/crates/peepmatic) A DSL for peephole optimizations and compiler for generating peephole optimizers from them
 
 ## Guides & Resources
 
