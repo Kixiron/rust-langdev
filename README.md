@@ -103,6 +103,7 @@
 - [`compiletest_rs`](https://crates.io/crates/compiletest_rs) The compiletest utility from the Rust compiler as a standalone testing harness
 - [`insta`](https://crates.io/crates/insta) A snapshot testing library for Rust
 - [`k9`](https://crates.io/crates/k9) Snapshot testing and better assertions
+- [`mo`](https://crates.io/crates/mo) A tool created in Rust for create dozens/hundreds/thousands/millions of random examples based on a pest grammar (PEG)
     
 ## Unicode
 
