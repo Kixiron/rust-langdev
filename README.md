@@ -100,6 +100,7 @@
 
 - [`goldentests`](https://crates.io/crates/goldentests) A golden file testing library where tests can be configured within the same test file
 - [`lang_tester`](https://crates.io/crates/lang_tester) Concise language testing framework for compilers and VMs (Linux only)
+- [`libtest-mimic`](https://crates.io/crates/libtest-mimic) Dynamically construct a test-harness that looks and behaves like Rust's built-in test harness
 - [`compiletest_rs`](https://crates.io/crates/compiletest_rs) The compiletest utility from the Rust compiler as a standalone testing harness
 - [`insta`](https://crates.io/crates/insta) A snapshot testing library for Rust
 - [`k9`](https://crates.io/crates/k9) Snapshot testing and better assertions
