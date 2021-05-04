@@ -104,6 +104,7 @@
 - [`insta`](https://crates.io/crates/insta) A snapshot testing library for Rust
 - [`k9`](https://crates.io/crates/k9) Snapshot testing and better assertions
 - [`mo`](https://crates.io/crates/mo) A tool created in Rust for create dozens/hundreds/thousands/millions of random examples based on a pest grammar (PEG)
+- [`libtest-mimic`](https://crates.io/crates/libtest-mimic) Write your own test harness that looks and behaves like the built-in test harness used by `rustc --test`
     
 ## Unicode
 
