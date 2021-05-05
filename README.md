@@ -132,7 +132,7 @@
 - [`lexical-core`](https://crates.io/crates/lexical-core) Lexical, to- and from-string conversion routines (Low-level, lexical conversion routines for use in a `no_std` context)
 - [`lexical_bool`](https://crates.io/crates/lexical_bool) A bool-like type that can be parsed from a string
 - [`ryu`](https://crates.io/crates/ryu) A Rust implementation of the PLDI'18 paper [Ryū: fast float-to-string conversion](https://dl.acm.org/doi/10.1145/3192366.3192369) by Ulf Adams
-- [`ryu-js`](https://crates.io/crates/ryu-js) Ryū-js is a fork of the ryu crate adjusted to comply to the ECMAScript number-to-string algorithm. This crate is used in the [boa](https://crates.io/crates/Boa) crate and in [Starlight](https://github.com/Starlight-JS/starlight) for number to string conversions.
+- [`ryu-js`](https://crates.io/crates/ryu-js) Ryū-js is a fork of the ryu crate adjusted to comply to the ECMAScript number-to-string algorithm
 - [`hexponent`](https://crates.io/crates/hexponent) C11 compliant hex float parsing
 - [`ordered-float`](https://crates.io/crates/ordered-float) Total ordering on floats
 - [`half`](https://crates.io/crates/half) A half-precision floating point `f16` type for Rust implementing the IEEE 754-2008 standard
