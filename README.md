@@ -57,7 +57,6 @@
     
 ## Regular expressions
 
-
 - [`regex`](https://crates.io/crates/regex) An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.
 - [`regress`](https://crates.io/crates/regress) A regular expression engine targeting EcmaScript syntax.
 - [`onig`](https://crates.io/crates/onig) Rust-Onig is a set of Rust bindings for the Oniguruma regular expression library. 
