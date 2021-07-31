@@ -13,6 +13,7 @@
 - [Binary & object file parsing, generating and processing](#binary--object-file-parsing-generating-and-processing)
 - [Solvers](#solvers)
 - [CLI](#cli)
+  - [Configuration](#configuration)
 - [Repl](#repl)
 - [String handling](#string-handling)
 - [Syntax trees](#syntax-trees)
@@ -171,6 +172,10 @@
 - [`clap`](https://crates.io/crates/clap) A simple to use, efficient, and full-featured Command Line Argument Parser 
 - [`pico-args`](https://crates.io/crates/pico-args) An ultra simple CLI arguments parser
 - [`argh`](https://crates.io/crates/argh) A derive-based argument parser optimized for code size
+
+### Configuration
+
+- [`etcetera`](https://crates.io/crates/etcetera) A library that aims to allow you to determine the locations of configuration, cache and data files for your application. Existing Rust libraries generally do not give you a choice in terms of which standards/conventions (Etcetera calls these ‘strategies’) they follow. Etcetera, on the other hand, gives you the choice.
     
 ## Repl
 
