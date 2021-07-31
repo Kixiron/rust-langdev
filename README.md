@@ -175,7 +175,9 @@
 
 ### Configuration
 
-- [`etcetera`](https://crates.io/crates/etcetera) A library that aims to allow you to determine the locations of configuration, cache and data files for your application. Existing Rust libraries generally do not give you a choice in terms of which standards/conventions (Etcetera calls these ‘strategies’) they follow. Etcetera, on the other hand, gives you the choice.
+- [`etcetera`](https://crates.io/crates/etcetera) A library that aims to allow you to determine the locations of configuration, cache and data files for your application. Existing Rust libraries generally do not give you a choice in terms of which standards/conventions (Etcetera calls these ‘strategies’) they follow. Etcetera, on the other hand, gives you the choice
+- [`toml`](https://crates.io/crates/toml) A TOML decoder and encoder for Rust (optionally uses [serde])
+- [`envy`](https://crates.io/crates/envy) Deserialize environment variables into typesafe structs (uses [serde])
     
 ## Repl
 
@@ -301,3 +303,5 @@
 - Matklad on pratt parsing: [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) and [From Pratt to Dikjstra](https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html)
 - [Pure AST based linting sucks](https://rdambrosio016.github.io/rust/2020/09/18/pure-ast-based-linting-sucks.html)
 - [LLVM's Kaleidoscope in Rust](https://github.com/jauhien/iron-kaleidoscope) The Kaleidoscope Language tutorial, showing how to implement a simple language using LLVM in Rust
+
+[serde]: https://crates.io/crates/serde
