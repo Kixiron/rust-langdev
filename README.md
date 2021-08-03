@@ -54,7 +54,8 @@
 - [`rowan`](https://crates.io/crates/rowan) Generic lossless syntax trees
   - [`ungrammar`](https://crates.io/crates/ungrammar) A DSL for specifying concrete syntax trees, see [this introductory post](https://rust-analyzer.github.io/blog/2020/10/24/introducing-ungrammar.html)
 - [`chomp`](https://crates.io/crates/chomp) Chomp is a fast monadic-style parser combinator library designed to work on stable Rust
-- [`oak`](https://crates.io/crates/oak) A typed parser generator embedded in Rust code for Parsing Expression Grammars 
+- [`oak`](https://crates.io/crates/oak) A typed parser generator embedded in Rust code for Parsing Expression Grammars
+- [`chumsky`](https://crates.io/crates/chumsky) A friendly parser combinator crate that makes writing LL(1) parsers with error recovery easy
     
 ## Regular expressions
 
@@ -94,6 +95,7 @@
 - [`codespan-reporting`](https://crates.io/crates/codespan-reporting) Beautiful diagnostic reporting for text-based programming languages
 - [`codespan`](https://crates.io/crates/codespan) Data structures for tracking locations in source code
 - [`text-size`](https://crates.io/crates/text_size) A library that provides newtype wrappers for `u32` and `(u32, u32)` for use as text offsets
+- [`ariadne`](https://crates.io/crates/ariadne) A fancy diagnostics & reporting crate
     
 ## Language server protocol
 
