@@ -198,6 +198,7 @@
 ## Syntax trees
 
 - [`rowan`](https://crates.io/crates/rowan) Generic lossless syntax trees
+- [`cstree`](https://crates.io/crates/cstree) A fork of `rowan` with threadsafe syntax trees and built-in [source string interning](#string-interning)
 
 ## Pretty printing
 
