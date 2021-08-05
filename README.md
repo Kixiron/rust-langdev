@@ -96,6 +96,7 @@
 - [`codespan`](https://crates.io/crates/codespan) Data structures for tracking locations in source code
 - [`text-size`](https://crates.io/crates/text_size) A library that provides newtype wrappers for `u32` and `(u32, u32)` for use as text offsets
 - [`ariadne`](https://crates.io/crates/ariadne) A fancy diagnostics & reporting crate
+- [`miette`](https://crates.io/crates/miette) Fancy diagnostic reporting library and protocol for us mere mortals who aren't compiler hackers
     
 ## Language server protocol
 
