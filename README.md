@@ -307,5 +307,6 @@
 - Matklad on pratt parsing: [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) and [From Pratt to Dikjstra](https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html)
 - [Pure AST based linting sucks](https://rdambrosio016.github.io/rust/2020/09/18/pure-ast-based-linting-sucks.html)
 - [LLVM's Kaleidoscope in Rust](https://github.com/jauhien/iron-kaleidoscope) The Kaleidoscope Language tutorial, showing how to implement a simple language using LLVM in Rust
+- [Where to Start Hand-Writing a Parser (in Rust) ](https://domenicquirl.github.io/blog/parsing-basics/) An introduction to programming language parsing in which we hand-write a parser and run it on some real input
 
 [serde]: https://crates.io/crates/serde
