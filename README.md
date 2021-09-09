@@ -53,6 +53,7 @@
 - [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/) A parser generator for building fast editor-friendly parsers with features like streaming, incremental, resumable (re)parsing, with timeouts and cancellations, and advanced syntax node queries.
 - [`rowan`](https://crates.io/crates/rowan) Generic lossless syntax trees
   - [`ungrammar`](https://crates.io/crates/ungrammar) A DSL for specifying concrete syntax trees, see [this introductory post](https://rust-analyzer.github.io/blog/2020/10/24/introducing-ungrammar.html)
+- [`cstree`](https://crates.io/crates/cstree) A fork of `rowan` with threadsafe syntax trees and built-in [source string interning](#string-interning)
 - [`chomp`](https://crates.io/crates/chomp) Chomp is a fast monadic-style parser combinator library designed to work on stable Rust
 - [`oak`](https://crates.io/crates/oak) A typed parser generator embedded in Rust code for Parsing Expression Grammars
 - [`chumsky`](https://crates.io/crates/chumsky) A friendly parser combinator crate that makes writing LL(1) parsers with error recovery easy
