@@ -68,13 +68,13 @@
 
 - [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
 - [`llvm-sys`](https://crates.io/crates/llvm-sys) Bindings to LLVM's C API
+- [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
 - [`llama`](https://crates.io/crates/llama) Friendly LLVM bindings
 - [`inkwell`](https://crates.io/crates/inkwell) Inkwell aims to help you pen your own programming languages by safely wrapping llvm-sys
 - [`llvm-ir`](https://crates.io/crates/llvm-ir) LLVM IR in natural Rust data structures
 - [`llvmenv`](https://crates.io/crates/llvmenv) Manage multiple LLVM/Clang builds
 - [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations
 - [`cilk`](https://github.com/maekawatoshiki/cilk) Toy Compiler Infrastructure influenced by LLVM written in Rust.
-- [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
 
 ## String interning
 
@@ -85,13 +85,13 @@
     
 ## Just-in-time Compilation
 
+- [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
 - [`masm-rs`](https://github.com/playxe/masm-rs) A JSC/SpiderMonkey like macro assembler
 - [`jit`](https://crates.io/crates/jit) (LibJIT) Just-In-Time Compilation in Rust using LibJIT bindings
 - [`lightning-sys`](https://crates.io/crates/lightning-sys) GNU lightning bindings for rust
 - [`gccjit`](https://crates.io/crates/gccjit) Higher-level Rust bindings for libgccjit
 - [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
 - [`dynasm`](https://crates.io/crates/dynasm) A Dynamic assembler written in Rust for Rust
-- [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
 
 ## Error reporting
 
