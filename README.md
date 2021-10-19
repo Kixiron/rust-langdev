@@ -74,7 +74,8 @@
 - [`llvmenv`](https://crates.io/crates/llvmenv) Manage multiple LLVM/Clang builds
 - [`walrus`](https://crates.io/crates/walrus) A library for performing WebAssembly transformations
 - [`cilk`](https://github.com/maekawatoshiki/cilk) Toy Compiler Infrastructure influenced by LLVM written in Rust.
-    
+- [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
+
 ## String interning
 
 - [`lasso`](https://crates.io/crates/lasso) A multithreaded and single threaded string interner with a minimal memory footprint and arena allocation
@@ -90,7 +91,8 @@
 - [`gccjit`](https://crates.io/crates/gccjit) Higher-level Rust bindings for libgccjit
 - [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
 - [`dynasm`](https://crates.io/crates/dynasm) A Dynamic assembler written in Rust for Rust
-    
+- [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
+
 ## Error reporting
 
 - [`codespan-reporting`](https://crates.io/crates/codespan-reporting) Beautiful diagnostic reporting for text-based programming languages
