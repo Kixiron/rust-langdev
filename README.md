@@ -32,7 +32,7 @@
 - [Type Checking](#type-checking)
 - [Peephole Optimization](#peephole-optimization)
 - [Guides & Resources](#guides--resources)
-  - [Type Checking](#type-checking)
+  - [Type Checking](#type-checking-1)
   - [Inlining](#inlining)
 
 ## Lexers
