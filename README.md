@@ -312,6 +312,7 @@
 - [Pure AST based linting sucks](https://rdambrosio016.github.io/rust/2020/09/18/pure-ast-based-linting-sucks.html)
 - [LLVM's Kaleidoscope in Rust](https://github.com/jauhien/iron-kaleidoscope) The Kaleidoscope Language tutorial, showing how to implement a simple language using LLVM in Rust
 - [Where to Start Hand-Writing a Parser (in Rust) ](https://domenicquirl.github.io/blog/parsing-basics/) An introduction to programming language parsing in which we hand-write a parser and run it on some real input
+- [Type Checking in less than 100 lines of Rust](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=174ca95a8b938168764846e97d5e9a2c) (Credit to [@zesterer](https://github.com/zesterer))
 
 ### Inlining
 
