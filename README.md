@@ -319,7 +319,7 @@
 - [Type Checking in less than 100 lines of Rust](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=174ca95a8b938168764846e97d5e9a2c) (Credit to [@zesterer](https://github.com/zesterer))
 - [Type Checking in less than 100 lines of Rust 2.0](https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=a15a24394c145e4e02afa3b48bb51ea1) (Credit to [@zesterer](https://github.com/zesterer))
 - [Bidirectional Type Checking in ~200 lines of OCaml](https://gist.github.com/mb64/87ac275c327ea923a8d587df7863d8c7) (Written in OCaml, credit to [@mb64](https://github.com/mb64))
-- [Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://arxiv.org/abs/1306.6032)
+- [[2020][PDF] Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism](https://arxiv.org/abs/1306.6032)
 - [Implementation of "Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism"](https://github.com/segeljakt/BidirectionalTypechecking) (Written in Rust, from [@segeljakt](https://github.com/segeljakt))
 - [Implementation of "Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism"](https://github.com/JDemler/BidirectionalTypechecking) (Written in Rust, from [@JDemler](https://github.com/JDemler))
 - [A bidirectional type inference system loosely based on Complete and Easy Bidirectional Typechecking for Higher-Rank Polymorphism.](https://github.com/samuela/bidirectional-typing) (Written in Haskell)
