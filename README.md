@@ -42,7 +42,6 @@
     
 ## Parsers
 
-- [`parze`](https://crates.io/crates/parze) Parze is a clean, efficient parser combinator written in Rust
 - [`lalrpop`](https://crates.io/crates/lalrpop) A convenient LR(1) parser generator
 - [`nom`](https://crates.io/crates/nom) A byte-oriented, zero-copy, parser combinators library
 - [`combine`](https://crates.io/crates/combine) Fast parser combinators on arbitrary streams with zero-copy support.
@@ -58,7 +57,7 @@
 - [`cstree`](https://crates.io/crates/cstree) A fork of `rowan` with threadsafe syntax trees and built-in [source string interning](#string-interning)
 - [`chomp`](https://crates.io/crates/chomp) Chomp is a fast monadic-style parser combinator library designed to work on stable Rust
 - [`oak`](https://crates.io/crates/oak) A typed parser generator embedded in Rust code for Parsing Expression Grammars
-- [`chumsky`](https://crates.io/crates/chumsky) A friendly parser combinator crate that makes writing LL(1) parsers with error recovery easy
+- [`chumsky`](https://crates.io/crates/chumsky) A friendly parser combinator crate that makes writing LL(k) parsers with error recovery easy
     
 ## Regular expressions
 
