@@ -297,6 +297,7 @@
 ## Type Checking
 
 - [`rusttyc`](https://crates.io/crates/rusttyc) An interface that allows for an intuitive translation of inference rules based on a Hindney-Milner-like bounded type meet-semilattice into rust code
+- [`polytype`](https://crates.io/crates/polytype) A Hindley-Milner polymorphic typing system
 
 ## Peephole Optimization
 
