@@ -174,6 +174,7 @@
   - [`smt2proxy`](https://crates.io/crates/smt2proxy) An experimental binary tool to intercept and pre-process SMT2 commands before they are send to an SMT solver
   - [`z3tracer`](https://crates.io/crates/z3tracer) An experimental parser for Z3 tracing logs obtained by passing `trace=true proof=true` to Z3
 - [Axiom Profiler](https://github.com/viperproject/axiom-profiler) A tool for visualising, analysing and understanding quantifier instantiations made via E-matching in a run of an SMT solver
+- [[2017][PDF] Counterexample Guided Inductive Optimization based on Satisfiability Modulo Theories](https://ssvlab.github.io/lucasccordeiro/papers/jscp2017_2.pdf)
 
 ## CLI
 
