@@ -34,6 +34,7 @@
 - [Guides & Resources](#guides--resources)
   - [Type Checking](#type-checking-1)
   - [Inlining](#inlining)
+  - [RVSDG](#rvsdg)
 
 ## Lexers
 
@@ -348,5 +349,18 @@
 - [[2019][PDF] Guiding Inlining Decisions Using Post-Inlining Transformations](https://webdocs.cs.ualberta.ca/~amaral/thesis/ErickOchoaMSc.pdf)
 - [[2019][PDF] An Optimization-Driven Incremental Inline Substitution Algorithm for Just-in-Time Compilers](http://aleksandar-prokopec.com/resources/docs/prio-inliner-final.pdf)
 - [[2021][PDF] Inlining for Code Size Reduction](https://homepages.dcc.ufmg.br/~fernando/publications/papers/SBLP21Pacheco.pdf)
+
+### RVSDG
+
+- [[2020][PDF] RVSDG: An Intermediate Representation for Optimizing Compilers](https://www.sjalander.com/research/pdf/sjalander-tecs2020.pdf)
+- [[2018][PDF] RVSDG: An Intermediate Representation for the Multi-Core Era](https://www.sjalander.com/research/pdf/sjalander-mcc2018.pdf)
+- [[2015][PDF] Perfect Reconstructability of Control Flow from Demand Dependence Graphs](https://dl.acm.org/doi/10.1145/2693261)
+- [Principles, Techniques, and Tools for Explicit and Automatic Parallelization](https://www.researchgate.net/publication/332241231_Principles_Techniques_and_Tools_for_Explicit_and_Automatic_Parallelization)
+- [[Slides] Compiling with the Regionalized Value State Dependence Graph](https://www.sintef.no/contentassets/11da6d67207348db98a30ddbdf3b0bba/reissmann_poster.pdf)
+- [JLM RVSDG Implementation (C++)](https://github.com/phate/jlm)
+- [JIVE RVSDG Graph Implementation (C++)](https://github.com/phate/jive/tree/master)
+- [RVSDG Viewer (C++)](https://github.com/phate/rvsdg-viewer)
+- [Cranial Coitus RVSDG Brainfuck Optimizer (Rust)](https://github.com/Kixiron/cranial-coitus)
+- [[2018][PDF] Semantic Reasoning About the Sea of Nodes](https://hal.inria.fr/hal-01723236/file/sea-of-nodes-hal.pdf)
 
 [serde]: https://crates.io/crates/serde
