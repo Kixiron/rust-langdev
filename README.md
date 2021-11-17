@@ -311,7 +311,7 @@
 - [`broom`](https://crates.io/crates/broom) An ergonomic tracing garbage collector that supports mark 'n sweep garbage collection
 - [`gc`](https://crates.io/crates/gc) A simple tracing (mark and sweep) garbage collector for Rust
 - [`shredder`](https://crates.io/crates/shredder) Garbage collection as a library for Rust
-- [`comet-api`](https://crates.io/crates/comet-api) A garbage collection library for implementing VMs in Rust
+- [`comet`](https://crates.io/crates/comet-gc) A garbage collection library for implementing VMs in Rust
 
 ## Guides & Resources
 
