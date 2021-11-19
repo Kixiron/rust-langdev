@@ -94,6 +94,7 @@
 - [`lightning-sys`](https://crates.io/crates/lightning-sys) GNU lightning bindings for rust
 - [`gccjit`](https://crates.io/crates/gccjit) Higher-level Rust bindings for libgccjit
 - [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
+  - [`cranelift-jit-demo`](https://github.com/bytecodealliance/cranelift-jit-demo) A JIT compiler and runtime for a toy language, using Cranelift 
 - [`dynasm`](https://crates.io/crates/dynasm) A Dynamic assembler written in Rust for Rust
 
 ## Error reporting
