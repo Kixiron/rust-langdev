@@ -326,6 +326,8 @@
 - [Pure AST based linting sucks](https://rdambrosio016.github.io/rust/2020/09/18/pure-ast-based-linting-sucks.html)
 - [LLVM's Kaleidoscope in Rust](https://github.com/jauhien/iron-kaleidoscope) The Kaleidoscope Language tutorial, showing how to implement a simple language using LLVM in Rust
 - [Where to Start Hand-Writing a Parser (in Rust) ](https://domenicquirl.github.io/blog/parsing-basics/) An introduction to programming language parsing in which we hand-write a parser and run it on some real input
+- [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/)
+- [X86 Opcode and Instruction Reference](http://ref.x86asm.net/index.html)
 
 ### Type Checking
 
