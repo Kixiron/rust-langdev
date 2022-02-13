@@ -36,6 +36,7 @@
   - [Type Checking](#type-checking-1)
   - [Inlining](#inlining)
   - [RVSDG](#rvsdg)
+  - [Equality Saturation](#equality-saturation)
 
 ## Lexers
 
@@ -382,5 +383,12 @@
 - [RVSDG Viewer (C++)](https://github.com/phate/rvsdg-viewer)
 - [Cranial Coitus RVSDG Brainfuck Optimizer (Rust)](https://github.com/Kixiron/cranial-coitus)
 - [[2018][PDF] Semantic Reasoning About the Sea of Nodes](https://hal.inria.fr/hal-01723236/file/sea-of-nodes-hal.pdf)
+
+### Equality Saturation
+
+- [[2010][PDF] Equality Saturation: A New Approach to Optimization](https://arxiv.org/abs/1012.1802)
+- [[2020][PDF] egg: Fast and Extensible Equality Saturation](https://arxiv.org/abs/2004.03082)
+- [[2021][PDF] Rewrite Rule Inference Using Equality Saturation](https://arxiv.org/abs/2108.10436)
+- [[2021][PDF] Sketch-Guided Equality Saturation: Scaling Equality Saturation to Complex Optimizations in Languages with Bindings](https://arxiv.org/abs/2111.13040)
 
 [serde]: https://crates.io/crates/serde
