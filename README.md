@@ -334,6 +334,7 @@
 - [Where to Start Hand-Writing a Parser (in Rust) ](https://domenicquirl.github.io/blog/parsing-basics/) An introduction to programming language parsing in which we hand-write a parser and run it on some real input
 - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/)
 - [X86 Opcode and Instruction Reference](http://ref.x86asm.net/index.html)
+- [Linear Scan Register Allocation on SSA Form](https://c9x.me/compile/bib/Wimmer10a.pdf)
 
 ### Type Checking
 
