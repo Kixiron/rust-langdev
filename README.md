@@ -326,6 +326,7 @@
 - [Making a language in Rust](https://arzg.github.io/lang/) A series about making a programming language called Eldiro using the Rust programming language
 - [Crafting Interpreters](https://craftinginterpreters.com/welcome.html) Implementing everything from parsing to garbage collection to bytecode VMs, highly reccomended as an introduction to language development ([Homepage](https://craftinginterpreters.com))
 - [Create Your Own Programming Language with Rust](https://createlang.rs/)
+- [Where to Start Hand-Writing a Parser (in Rust)](https://domenicquirl.github.io/blog/parsing-basics/)
 - [Writing a simple parser in Rust](https://adriann.github.io/rust_parser.html)
 - GC and Rust [part 0](http://blog.pnkfx.org/blog/2015/10/27/gc-and-rust-part-0-how-does-gc-work/), [part 1](http://blog.pnkfx.org/blog/2015/11/10/gc-and-rust-part-1-specing-the-problem/) and [part 2](http://blog.pnkfx.org/blog/2016/01/01/gc-and-rust-part-2-roots-of-the-problem/)
 - Matklad on pratt parsing: [Simple but Powerful Pratt Parsing](https://matklad.github.io/2020/04/13/simple-but-powerful-pratt-parsing.html) and [From Pratt to Dikjstra](https://matklad.github.io/2020/04/15/from-pratt-to-dijkstra.html)
