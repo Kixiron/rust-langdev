@@ -336,6 +336,7 @@
 - [x86 and amd64 instruction reference](https://www.felixcloutier.com/x86/)
 - [X86 Opcode and Instruction Reference](http://ref.x86asm.net/index.html)
 - [Linear Scan Register Allocation on SSA Form](https://c9x.me/compile/bib/Wimmer10a.pdf)
+- [A bibliography of papers related to symbolic execution](https://github.com/saswatanand/symexbib)
 
 ### Type Checking
 
