@@ -54,6 +54,7 @@
 - [`pratt`](https://crates.io/crates/pratt) A general purpose pratt parser for Rust
 - [`pest`](https://crates.io/crates/pest) A general purpose parser written in Rust with a focus on accessibility, correctness, and performance using parsing expression grammars (PEG)
 - [`lrpar`](https://crates.io/crates/lrpar) A Yacc-compatible parser.
+  - [`nimbleparse_lsp`](https://github.com/ratmice/nimbleparse_lsp) An LSP server for quickly developing lrpar parsers, which parses input buffers on grammar change bypassing code generation.
 - [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/) A parser generator for building fast editor-friendly parsers with features like streaming, incremental, resumable (re)parsing, with timeouts and cancellations, and advanced syntax node queries.
 - [`rowan`](https://crates.io/crates/rowan) Generic lossless syntax trees
   - [`ungrammar`](https://crates.io/crates/ungrammar) A DSL for specifying concrete syntax trees, see [this introductory post](https://rust-analyzer.github.io/blog/2020/10/24/introducing-ungrammar.html)
