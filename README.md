@@ -393,5 +393,9 @@
 - [[2020][PDF] egg: Fast and Extensible Equality Saturation](https://arxiv.org/abs/2004.03082)
 - [[2021][PDF] Rewrite Rule Inference Using Equality Saturation](https://arxiv.org/abs/2108.10436)
 - [[2021][PDF] Sketch-Guided Equality Saturation: Scaling Equality Saturation to Complex Optimizations in Languages with Bindings](https://arxiv.org/abs/2111.13040)
+- [[2021][PDF] Caviar: An E-graph Based TRS for Automatic Code Optimization](https://arxiv.org/abs/2111.12116)
+- [[2002][PDF] SPORES: Sum-Product Optimization via Relational Equality Saturation for Large Scale Linear Algebra](https://arxiv.org/abs/2002.07951)
+- [[2021][PDF] Relational E-Matching](https://arxiv.org/abs/2108.02290)
+- [[2021][PDF] Rewrite Rule Inference Using Equality Saturation](https://arxiv.org/abs/2108.10436)
 
 [serde]: https://crates.io/crates/serde
