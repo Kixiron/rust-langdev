@@ -337,6 +337,7 @@
 - [X86 Opcode and Instruction Reference](http://ref.x86asm.net/index.html)
 - [Linear Scan Register Allocation on SSA Form](https://c9x.me/compile/bib/Wimmer10a.pdf)
 - [A bibliography of papers related to symbolic execution](https://github.com/saswatanand/symexbib)
+- [Instruction Latencies, Throughput and Micro-Operation Breakdowns for Intel, AMD and VIA CPUs](https://www.agner.org/optimize/instruction_tables.pdf)
 
 ### Type Checking
 
