@@ -338,6 +338,10 @@
 - [Linear Scan Register Allocation on SSA Form](https://c9x.me/compile/bib/Wimmer10a.pdf)
 - [A bibliography of papers related to symbolic execution](https://github.com/saswatanand/symexbib)
 - [Instruction Latencies, Throughput and Micro-Operation Breakdowns for Intel, AMD and VIA CPUs](https://www.agner.org/optimize/instruction_tables.pdf)
+- [[1995][PDF] Symbolic Range Propagation](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.4717)
+- [[2001][PDF] Efficient Symbolic Analysis for Optimizing Compilers](https://www.cs.fsu.edu/~engelen/cc01.pdf)
+- [[2021][Video] A New Approach to Removing Redundant Conditions in LLVM](https://www.youtube.com/watch?v=1hm5ZVmBEvo)
+- [[2017][Video] Polyhedral Value & Memory Analysis](https://www.youtube.com/watch?v=xSA0XLYJ-G0)
 
 ### Type Checking
 
