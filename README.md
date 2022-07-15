@@ -342,6 +342,7 @@
 - [[2001][PDF] Efficient Symbolic Analysis for Optimizing Compilers](https://www.cs.fsu.edu/~engelen/cc01.pdf)
 - [[2021][Video] A New Approach to Removing Redundant Conditions in LLVM](https://www.youtube.com/watch?v=1hm5ZVmBEvo)
 - [[2017][Video] Polyhedral Value & Memory Analysis](https://www.youtube.com/watch?v=xSA0XLYJ-G0)
+- [Simplify: A Theorem Prover for Program Checking](https://www.hpl.hp.com/techreports/2003/HPL-2003-148.pdf)
 
 ### Type Checking
 
