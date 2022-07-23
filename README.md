@@ -42,6 +42,7 @@
 
 - [`logos`](https://crates.io/crates/logos) Logos has two goals: To make it easy to create a Lexer, so you can focus on more complex problems and to make the generated Lexer faster than anything you'd write by hand
 - [`lrlex`](https://crates.io/crates/lrlex) A replacement for [`lex`](http://dinosaur.compilertools.net/lex/index.html)/[`flex`](https://westes.github.io/flex/manual/) that generates Rust code
+- [`lexgen`](https://crates.io/crates/lexgen) A fully-featured lexer generator, implemented as a proc macro.
     
 ## Parsers
 
