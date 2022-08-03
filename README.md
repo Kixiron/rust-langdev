@@ -238,6 +238,8 @@
 ## Logging
 
 - [`tracing`](https://crates.io/crates/tracing) Application-level tracing for Rust
+  - [`tracing-tree`](https://crates.io/crates/tracing-tree) A Tracing Layer which prints a tree of spans and events.
+  - [`tracing-forest`](https://crates.io/crates/tracing-forest) Preserving contextual coherence among trace data from concurrent tasks
   - [`tracing-timing`](https://crates.io/crates/tracing-timing) Inter-event timing metrics on top of `tracing`
   - [`tracing-coz`](https://crates.io/crates/tracing-coz) Rust-tracing support for the [coz](https://github.com/plasma-umass/coz/#installation) Causal Profiler
   - [`tracing-flame`](https://crates.io/crates/tracing-flame) A tracing `Layer` for generating a folded stack trace for generating flamegraphs and flamecharts with inferno
