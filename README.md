@@ -37,6 +37,7 @@
   - [Inlining](#inlining)
   - [RVSDG](#rvsdg)
   - [Equality Saturation](#equality-saturation)
+- [Uncategorized](#uncategorized)
 
 ## Lexers
 
@@ -407,5 +408,9 @@
 - [[2002][PDF] SPORES: Sum-Product Optimization via Relational Equality Saturation for Large Scale Linear Algebra](https://arxiv.org/abs/2002.07951)
 - [[2021][PDF] Relational E-Matching](https://arxiv.org/abs/2108.02290)
 - [[2021][PDF] Rewrite Rule Inference Using Equality Saturation](https://arxiv.org/abs/2108.10436)
+
+## Uncategorized
+
+- [Turns are Better than Radians](https://www.computerenhance.com/p/turns-are-better-than-radians) An interesting blog post about using turns instead of pi or tau for trigometric calculations, could be inspiration for some interesting code transformations
 
 [serde]: https://crates.io/crates/serde
