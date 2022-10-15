@@ -412,5 +412,6 @@
 ## Uncategorized
 
 - [Turns are Better than Radians](https://www.computerenhance.com/p/turns-are-better-than-radians) An interesting blog post about using turns instead of pi or tau for trigometric calculations, could be inspiration for some interesting code transformations
+- [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/) ([russian version](https://ru.algorithmica.org/)) Low-level performance tuning for modern hardware
 
 [serde]: https://crates.io/crates/serde
