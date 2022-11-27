@@ -348,6 +348,7 @@
 - [[2017][Video] Polyhedral Value & Memory Analysis](https://www.youtube.com/watch?v=xSA0XLYJ-G0)
 - [Simplify: A Theorem Prover for Program Checking](https://www.hpl.hp.com/techreports/2003/HPL-2003-148.pdf)
 - [Elegant and performant recursion in Rust](https://recursion.wtf/posts/rust_schemes/)
+- [Speculation in JavaScriptCore](https://webkit.org/blog/10308/speculation-in-javascriptcore/)
 
 ### Type Checking
 
