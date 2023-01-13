@@ -64,6 +64,7 @@
 - [`chomp`](https://crates.io/crates/chomp) Chomp is a fast monadic-style parser combinator library designed to work on stable Rust
 - [`oak`](https://crates.io/crates/oak) A typed parser generator embedded in Rust code for Parsing Expression Grammars
 - [`chumsky`](https://crates.io/crates/chumsky) A friendly parser combinator crate that makes writing LL(k) parsers with error recovery easy
+- [`rust-sitter`](https://crates.io/crates/rust-sitter) A package for defining tree-sitter grammars alongside Rust logic
     
 ## Regular expressions
 
