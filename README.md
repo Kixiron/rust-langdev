@@ -350,6 +350,7 @@
 - [Simplify: A Theorem Prover for Program Checking](https://www.hpl.hp.com/techreports/2003/HPL-2003-148.pdf)
 - [Elegant and performant recursion in Rust](https://recursion.wtf/posts/rust_schemes/)
 - [Speculation in JavaScriptCore](https://webkit.org/blog/10308/speculation-in-javascriptcore/)
+- [Whippet: A new GC for Guile](https://wingolog.org/archives/2023/02/07/whippet-towards-a-new-local-maximum)
 
 ### Type Checking
 
