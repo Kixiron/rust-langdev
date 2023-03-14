@@ -325,6 +325,7 @@
 - [`gc`](https://crates.io/crates/gc) A simple tracing (mark and sweep) garbage collector for Rust
 - [`shredder`](https://crates.io/crates/shredder) Garbage collection as a library for Rust
 - [`comet`](https://crates.io/crates/comet-gc) A garbage collection library for implementing VMs in Rust
+- [`mmtk`](https://docs.rs/mmtk/latest/mmtk/) Memory Management ToolKit (MMTk) for portable & efficient memory management in language VMs
 
 ## Guides & Resources
 
