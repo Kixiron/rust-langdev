@@ -138,6 +138,7 @@
 ## Incremental compilation
 
 - [`salsa`](https://crates.io/crates/salsa) A generic framework for on-demand, incrementalized computation
+- [`verde`](https://crates.io/crates/verde) A refreshingly simple incremental computation library
     
 ## Floats/Ints/Bools
 
