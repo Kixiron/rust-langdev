@@ -95,6 +95,7 @@
 
 - [`iced-x86`](https://crates.io/crates/iced-x86) A blazing fast and correct x86/x64 disassembler, assembler and instruction decoder
 - [`masm-rs`](https://github.com/playxe/masm-rs) A JSC/SpiderMonkey like macro assembler
+- [`b3`](https://github.com/playXE/b3-rs) Rust port of [B3](https://webkit.org/docs/b3/), LLVM-like backend
 - [`jit`](https://crates.io/crates/jit) (LibJIT) Just-In-Time Compilation in Rust using LibJIT bindings
 - [`lightning-sys`](https://crates.io/crates/lightning-sys) GNU lightning bindings for rust
 - [`gccjit`](https://crates.io/crates/gccjit) Higher-level Rust bindings for libgccjit
