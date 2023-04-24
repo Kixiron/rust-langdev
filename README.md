@@ -406,6 +406,7 @@
 - [[1994][PDF] Value dependence graphs: representation without taxation](https://dl.acm.org/doi/10.1145/174675.177907)
 - [[2016][PDF] Value State Flow Graph: A Dataflow Compiler IR for Accelerating Control-Intensive Code in Spatial Hardware](https://dl.acm.org/doi/abs/10.1145/2807702)
 - [Numba Python JIT RVSDG Optimizer](https://github.com/numba/numba-rvsdg)
+- [[Archived] Rain IR](https://gitlab.com/old-rain-lang/rain-ir) A dependently-typed RVSDG with liftetimes, implemented in Rust
 
 ### Equality Saturation
 
