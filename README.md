@@ -403,6 +403,9 @@
 - [RVSDG Viewer (C++)](https://github.com/phate/rvsdg-viewer)
 - [Cranial Coitus RVSDG Brainfuck Optimizer (Rust)](https://github.com/Kixiron/cranial-coitus)
 - [[2018][PDF] Semantic Reasoning About the Sea of Nodes](https://hal.inria.fr/hal-01723236/file/sea-of-nodes-hal.pdf)
+- [[1994][PDF] Value dependence graphs: representation without taxation](https://dl.acm.org/doi/10.1145/174675.177907)
+- [[2016][PDF] Value State Flow Graph: A Dataflow Compiler IR for Accelerating Control-Intensive Code in Spatial Hardware](https://dl.acm.org/doi/abs/10.1145/2807702)
+- [Numba Python JIT RVSDG Optimizer](https://github.com/numba/numba-rvsdg)
 
 ### Equality Saturation
 
