@@ -292,6 +292,7 @@
 - [`wasm-smith`](https://crates.io/crates/wasm-smith) A WebAssembly test case generator
 - [`fuzzcheck`](https://crates.io/crates/fuzzcheck) A structure-aware coverage-guided fuzzer
 - [`libafl`](https://crates.io/crates/libafl)
+- [`test-fuzz`](https://github.com/trailofbits/test-fuzz)
 
 ### Fuzzing Resources
 
