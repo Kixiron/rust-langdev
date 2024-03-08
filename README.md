@@ -323,7 +323,7 @@
 
 - [`egg`](https://crates.io/crates/egg) Egg is a flexible, high-performance e-graph library
 - [`peepmatic`](https://crates.io/crates/peepmatic) A DSL for peephole optimizations and compiler for generating peephole optimizers from them
-- [`egglog`](https://crates.io/crates/egglog) Egglog is a language that combines the benefits of equality saturation and datalog. It can be used for analysis, optimization, and synthesis of programs. It is the successor to the popular Rust Library egg.
+- [`egglog`](https://crates.io/crates/egglog) Egglog is a language that combines the benefits of equality saturation and datalog. It can be used for analysis, optimization, and synthesis of programs. It provides an alternative approach to the popular Rust Library egg.
 
 ## Garbage Collection
 
