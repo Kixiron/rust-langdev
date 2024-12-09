@@ -115,6 +115,8 @@
 - [`text-size`](https://crates.io/crates/text_size) A library that provides newtype wrappers for `u32` and `(u32, u32)` for use as text offsets
 - [`ariadne`](https://crates.io/crates/ariadne) A fancy diagnostics & reporting crate
 - [`miette`](https://crates.io/crates/miette) Fancy diagnostic reporting library and protocol for us mere mortals who aren't compiler hackers
+- [`lyneate`](https://crates.io/crates/lyneate) A crate for beautiful code underlining and error reporting
+- [`lerr`](https://crates.io/crates/lerr) extremely barebones error diagnostics for lang-dev
     
 ## Language server protocol
 
@@ -324,8 +326,9 @@
 
 ## Peephole Optimization
 
-- [`egg`](https://crates.io/crates/egg) Egg is a flexible, high-performance e-graph library 
+- [`egg`](https://crates.io/crates/egg) Egg is a flexible, high-performance e-graph library
 - [`peepmatic`](https://crates.io/crates/peepmatic) A DSL for peephole optimizations and compiler for generating peephole optimizers from them
+- [`egglog`](https://crates.io/crates/egglog) Egglog is a language that combines the benefits of equality saturation and datalog. It can be used for analysis, optimization, and synthesis of programs. It provides an alternative approach to the popular Rust Library egg.
 
 ## Garbage Collection
 
