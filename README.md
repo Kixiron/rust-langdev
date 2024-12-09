@@ -91,6 +91,7 @@
 - [`string-interner`](https://crates.io/crates/string-interner) A data structure to cache strings efficiently
 - [`simple-interner`](https://crates.io/crates/simple-interner) A simple append-only interner
 - [`string_cache`](https://crates.io/crates/string_cache) A string interning library for Rust, developed as part of the Servo project
+- [`ustr`](https://crates.io/crates/ustr) A fast, FFI-friendly string interning
     
 ## Just-in-time Compilation
 
