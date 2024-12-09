@@ -5,6 +5,7 @@
 - [Codegen](#codegen)
 - [String interning](#string-interning)
 - [Just-in-time compilation](#just-in-time-compilation)
+- [Compiler framework](#compiler-framework)
 - [Error reporting](#error-reporting)
 - [Language server protocol](#language-server-protocol)
 - [Testing](#testing)
@@ -102,6 +103,10 @@
 - [`cranelift`](https://crates.io/crates/cranelift) Cranelift is a low-level retargetable code generator
   - [`cranelift-jit-demo`](https://github.com/bytecodealliance/cranelift-jit-demo) A JIT compiler and runtime for a toy language, using Cranelift 
 - [`dynasm`](https://crates.io/crates/dynasm) A Dynamic assembler written in Rust for Rust
+
+## Compiler Framework
+
+- [`xrcf`](https://xrcf.org) The eXtensible and Reusable Compiler Framework (xrcf) is a library for building compilers
 
 ## Error reporting
 
